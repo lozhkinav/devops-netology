@@ -10,3 +10,4 @@ devops-netology
 3. Игнорирует файлы конфигурации
 .terraformrc
 terraform.rc
+4. Добавлена ветка fix в коммите Prepare to delete and move хэш f0fff44
