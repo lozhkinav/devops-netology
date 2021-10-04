@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4142694c-0486-4539-b8d9-2bdc6ce41bb6" name="Changes" comment="files_for_dz.42">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-script-02-py/dz3.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-script-02-py/dz3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-script-02-py/the_answers_dz_4.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-script-02-py/the_answers_dz_4.2.md" afterDir="false" />
-    </list>
+    <list default="true" id="4142694c-0486-4539-b8d9-2bdc6ce41bb6" name="Changes" comment="change dz3 files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633343340500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change dz3 files">
+      <created>1633344402132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633344402132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +149,7 @@
     <MESSAGE value="04-script-02" />
     <MESSAGE value="1" />
     <MESSAGE value="files_for_dz.42" />
-    <option name="LAST_COMMIT_MESSAGE" value="files_for_dz.42" />
+    <MESSAGE value="change dz3 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dz3 files" />
   </component>
 </project>
