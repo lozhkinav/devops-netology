@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4142694c-0486-4539-b8d9-2bdc6ce41bb6" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/04-script-02-py/dz3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-script-02-py/dz4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-script-02-py/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-script-02-py/the_answers_dz_4.2.md" afterDir="false" />
+    <list default="true" id="4142694c-0486-4539-b8d9-2bdc6ce41bb6" name="Changes" comment="files_for_dz.42">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-script-02-py/dz3.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-script-02-py/dz3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-script-02-py/the_answers_dz_4.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-script-02-py/the_answers_dz_4.2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633341981675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="files_for_dz.42">
+      <created>1633343340500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633343340500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="04-script-02" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="files_for_dz.42" />
+    <option name="LAST_COMMIT_MESSAGE" value="files_for_dz.42" />
   </component>
 </project>
