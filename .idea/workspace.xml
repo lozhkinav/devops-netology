@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4142694c-0486-4539-b8d9-2bdc6ce41bb6" name="Changes" comment="change dz3 files" />
+    <list default="true" id="4142694c-0486-4539-b8d9-2bdc6ce41bb6" name="Changes" comment="change md">
+      <change afterPath="$PROJECT_DIR$/04-script-03-yaml/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +26,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1z1qO7TDlpl3kNOCxpTOPQbLHnk" />
   <component name="ProjectViewState">
@@ -130,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633344402132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change md">
+      <created>1633344674019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633344674019</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change md">
+      <created>1633344904722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633344904722</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +166,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="files_for_dz.42" />
     <MESSAGE value="change dz3 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dz3 files" />
+    <MESSAGE value="change md" />
+    <option name="LAST_COMMIT_MESSAGE" value="change md" />
   </component>
 </project>
