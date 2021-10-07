@@ -60,7 +60,7 @@ print('*** start script ***')
 print(srv)
 print('********************')
 
-while 1 == 1 : # для бесконечного цикла, else  установить условие i >= cилу требуемых итераций
+while true: # для бесконечного цикла, else  установить условие i >= cилу требуемых итераций
   for host in srv:
     is_error = False 
     ip = s.gethostbyname(host)
