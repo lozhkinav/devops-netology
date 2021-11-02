@@ -31,7 +31,7 @@
 - VirtualBox
 ### Ответ:
 В "винде " только так )
-![image info](./virt-homeworks/05-virt-02-iaac/virtualbox.png)
+![image info](./screenshots/virtualbox.png)
 - Vagrant
 ### Ответ:
 c:\intel\vagrant>vagrant -v
