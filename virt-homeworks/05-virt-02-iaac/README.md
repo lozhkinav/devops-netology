@@ -59,5 +59,5 @@
 - Зайти внутрь ВМ, убедиться, что Docker установлен с помощью команды
 ```
 docker ps
-```
 ![image info](./screenshots/docker.png)
+```
