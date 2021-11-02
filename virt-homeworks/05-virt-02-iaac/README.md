@@ -27,18 +27,24 @@
 ## Задача 3
 
 Установить на личный компьютер:
-
+###
 - VirtualBox
-### Ответ:
+```
 В "винде " только так )
 ![image info](./screenshots/virtualbox.png)
+```
+### 
 - Vagrant
-### Ответ:
+```
 - c:\intel\vagrant>vagrant -v
 - Vagrant 2.2.18
-
+```
+###
 - Ansible
-
+```
+- root@vagrant:/home/vagrant# ansible --version
+- ansible 2.9.9
+```
 *Приложить вывод команд установленных версий каждой из программ, оформленный в markdown.*
 
 ## Задача 4 (*)
@@ -50,3 +56,4 @@
 ```
 docker ps
 ```
+![image info](./screenshots/docker.png)
