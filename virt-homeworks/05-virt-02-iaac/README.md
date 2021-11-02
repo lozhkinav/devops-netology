@@ -35,8 +35,9 @@
 - VirtualBox
 ```
 В "винде " только так )
-![image info](./screenshots/virtualbox.png)
 ```
+![image info](./screenshots/virtualbox.png)
+
 ### 
 - Vagrant
 ```
