@@ -143,6 +143,8 @@ Test file!!!
 Воспроизвести практическую часть лекции самостоятельно.
 
 Соберите Docker образ с Ansible, загрузите на Docker Hub и пришлите ссылку вместе с остальными ответами к задачам.
+
+### Ответ:
 ```
 https://hub.docker.com/repository/docker/lozhkinav85/ansible
 ```
