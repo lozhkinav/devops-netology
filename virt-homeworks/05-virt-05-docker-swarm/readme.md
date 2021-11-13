@@ -19,7 +19,7 @@ docker node ls
 
 ### Ответ
 <p align="center">
-  <img width="1200" height="600" src="./screenshots/terminal_image_packer.png">
+  <img width="1200" height="600" src="./screenshots/docker_node_ls.png">
 </p>
 
 ## Задача 3
