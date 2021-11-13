@@ -30,6 +30,10 @@ docker node ls
 ```
 docker service ls
 ```
+### Ответ
+<p align="center">
+  <img width="1913" height="306" src="./screenshots/docker_node_ls.png">
+</p>
 
 ## Задача 4 (*)
 
