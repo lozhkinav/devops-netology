@@ -54,6 +54,6 @@ docker service ls
 # см.документацию: https://docs.docker.com/engine/swarm/swarm_manager_locking/
 docker swarm update --autolock=true
 ```
----
-Включает автоблокировку кластера. Заррещает измененния в кластаре.
----
+```
+Включает автоблокировку кластера. Запрещает измененния в кластаре.
+```
