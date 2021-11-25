@@ -150,6 +150,7 @@ select count (*) from clients;
 Приведите SQL-запрос для выдачи всех пользователей, которые совершили заказ, а также вывод данного запроса.
  
 Подсказк - используйте директиву `UPDATE`.
+### Ответ:
 
 ```
 update  clients set booking = 3 where id = 1;
@@ -171,6 +172,20 @@ select * from clients where booking is not null
 
 Приведите получившийся результат и объясните что значат полученные значения.
 
+### Ответ:
+
+<img width="1029" height="330" src="./screenshots/ss_6_5_1.png">
+</p>
+
+```
+Вариант 1
+Показывает стоимость(нагрузку на исполнение) запроса (не оптимальный в сравнении с Вар2)
+Показывает шаги связи, и сбор сканирование таблиц после связи
+
+Вариант 2
+Так же показывает стоимость(нагрузку на исполнение) запроса , и фильтрацию по полю Booking для выборки.
+```
+
 ## Задача 6
 
 Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. Задачу 1).
@@ -183,10 +198,40 @@ select * from clients where booking is not null
 
 Приведите список операций, который вы применяли для бэкапа данных и восстановления. 
 
----
+### Ответ:
+```
+17:23:15 alex@upc(0):~$ docker exec -t pgre-docker pg_dump -U postgres test_db -f /var/lib/postgresql/data/dump_test.sql
 
-### Как cдавать задание
+17:29:18 alex@upc(0):~$ docker exec -i pgre-docker2 psql -U postgres -d test_db -f /var/lib/postgresql/data/dump_test.sql
+SET
+SET
+SET
+SET
+SET
+ set_config 
+------------
+ 
+(1 row)
 
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-
----
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+COPY 5
+COPY 5
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+GRANT
+GRANT
+17:33:29 alex@upc(0):~$ 
+```
+- Втотрой контейнер поднят на порту 5433
+<img width="505" height="612" src="./screenshots/ss_6_6_1.png">
+</p>
