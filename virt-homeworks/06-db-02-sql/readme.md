@@ -45,6 +45,54 @@ p align="center">
 - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
 - список пользователей с правами над таблицами test_db
 
+### Ответ:
+- Команды:
+```
+CREATE DATABASE test_db
+CREATE ROLE "test-admin-user" SUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT LOGIN;
+
+CREATE TABLE orders 
+(
+id integer, 
+name text, 
+price integer, 
+PRIMARY KEY (id) 
+);
+
+CREATE TABLE clients 
+(
+	id integer PRIMARY KEY,
+	lastname text,
+	country text,
+	booking integer,
+	FOREIGN KEY (booking) REFERENCES orders (Id)
+);
+
+CREATE ROLE "test-simple-user" NOSUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT LOGIN;
+GRANT SELECT ON TABLE public.clients TO "test-simple-user";
+GRANT INSERT ON TABLE public.clients TO "test-simple-user";
+GRANT UPDATE ON TABLE public.clients TO "test-simple-user";
+GRANT DELETE ON TABLE public.clients TO "test-simple-user";
+GRANT SELECT ON TABLE public.orders TO "test-simple-user";
+GRANT INSERT ON TABLE public.orders TO "test-simple-user";
+GRANT UPDATE ON TABLE public.orders TO "test-simple-user";
+GRANT DELETE ON TABLE public.orders TO "test-simple-user";
+```
+- Скриншоты 
+- Список БД:
+ <img width="900" height="240" src="./screenshots/ss_6_2_0.png">
+</p>
+
+- Список Таблиц и привелегий:
+<img width="1129" height="592" src="./screenshots/ss_6_2_1.png">
+</p>
+
+- Скрины из Beaver:
+<img width="507" height="547" src="./screenshots/ss_6_2_2.png">
+</p>
+<img width="456" height="406" src="./screenshots/ss_6_2_2.png">
+</p>
+
 ## Задача 3
 
 Используя SQL синтаксис - наполните таблицы следующими тестовыми данными:
