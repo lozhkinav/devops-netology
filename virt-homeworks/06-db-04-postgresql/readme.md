@@ -16,8 +16,9 @@
 - выхода из psql
 
 ### Ответ:
+
+- Комманды : 
 ```
-Комманды : 
 21:37:04 alex@upc(0):~$ docker pull postgres:13
 21:34:58 alex@upc(0):~$ docker volume create vol_postgres
 21:40:43 alex@upc(0):~$ docker run --rm --name pg-docker -e POSTGRES_PASSWORD=postgres -ti -p 5432:5432 -v vol_postgres:/var/lib/postgresql/data postgres:13
