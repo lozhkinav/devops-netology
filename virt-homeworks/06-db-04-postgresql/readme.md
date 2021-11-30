@@ -139,7 +139,7 @@ test_database=# select avg_width from pg_stats where tablename='orders';
 Можно ли было изначально исключить "ручное" разбиение при проектировании таблицы orders?
 
 ### Ответ:
-- преобразовать существующую таблицу в партиционированную поэтому пересоздадим таблицу
+- преобразовать существующую таблицу в партиционированную, поэтому пересоздадим таблицу
 ```
 test_database=# alter table orders rename to orders_simple;
 ALTER TABLE
