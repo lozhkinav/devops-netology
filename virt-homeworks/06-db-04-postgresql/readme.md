@@ -164,7 +164,12 @@ test_database=#
 ```
 root@8d48e9af5c27:/var/lib/postgresql/data# pg_dump -U postgres -d test_database >test_database_dump.sql
 ```
-- Для уникальности можно добавить индекс или первичный ключ.
+- Для уникальности можно добавить  первичный ключ.
 ```
-CREATE INDEX ON orders ((lower(title)));
+ALTER TABLE orders
+
+  ADD CONSTRAINT [ title_key ]
+
+    PRIMARY KEY (ititle)
+
 ```
