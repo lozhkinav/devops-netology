@@ -104,6 +104,36 @@ CMD ["/elasticsearch-7.11.1/bin/elasticsearch"]
 При проектировании кластера elasticsearch нужно корректно рассчитывать количество реплик и шард,
 иначе возможна потеря данных индексов, вплоть до полной, при деградации системы.
 
+### Ответы:
+- Создание индексов:
+```
+curl -X PUT localhost:9200/ind-1 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 1,  "number_of_replicas": 0 }}'
+curl -X PUT localhost:9200/ind-2 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 2,  "number_of_replicas": 1 }}'
+curl -X PUT localhost:9200/ind-3 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 4,  "number_of_replicas": 2 }}'
+```
+- Список индексов:
+
+<p align="center">
+  <img width="1320" height="122" src="./screenshots/index_list.png">
+</p>
+
+- Статус индексов:
+<p align="center">
+  <img width="822" height="815" src="./screenshots/index_status.png">
+</p>
+
+- Статус кластера:
+<p align="center">
+  <img width="991" height="432" src="./screenshots/cluster_status.png">
+</p>
+
+- Удаление индексов:
+<p align="center">
+  <img width="1003" height="336" src="./screenshots/index_del.png">
+</p>
+
+индексы в статусе Yellow потому что у них указано число реплик, а по факту нет других серверов, соответсвено реплицировать не куда.
+
 ## Задача 3
 
 В данном задании вы научитесь:
