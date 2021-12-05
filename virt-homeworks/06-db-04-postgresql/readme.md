@@ -165,12 +165,11 @@ test_database=#
 ```
 root@8d48e9af5c27:/var/lib/postgresql/data# pg_dump -U postgres -d test_database >test_database_dump.sql
 ```
-- Для уникальности можно добавить  первичный ключ.
 ```
-ALTER TABLE orders
+ALTER TABLE ONLY test_database ADD UNIQUE (title);
 
-  ADD CONSTRAINT [ title_key ]
-
-    PRIMARY KEY (ititle)
+ALTER TABLE test_database ADD UNIQUE (title);
+ALTER INDEX title
+    ATTACH PARTITION title;
 
 ```
