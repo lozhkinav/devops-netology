@@ -69,7 +69,7 @@ CMD ["/usr/sbin/init"]
 CMD ["/elasticsearch-7.11.1/bin/elasticsearch"]
 ```
 - [ссылку на образ в репозитории dockerhub](https://hub.docker.com/repository/docker/lozhkinav85/est)
-- Файл конфигурации [elasticsearch.yml] (config/elasticsearch.yml)
+- Файл конфигурации [elasticsearch.yml] (/config/elasticsearch.yml)
 - ответ `elasticsearch` на запрос пути `/` в json виде
 <p align="center">
   <img width="986" height="463" src="./screenshots/get.png">
