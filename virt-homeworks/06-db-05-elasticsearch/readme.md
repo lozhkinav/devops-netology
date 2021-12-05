@@ -164,10 +164,63 @@ curl -X PUT localhost:9200/ind-3 -H 'Content-Type: application/json' -d'{ "setti
 Подсказки:
 - возможно вам понадобится доработать `elasticsearch.yml` в части директивы `path.repo` и перезапустить `elasticsearch`
 
----
+### Ответы:
+```
+root@vagrant:/home/vagrant# curl -XPOST localhost:9200/_snapshot/netology_backup?pretty -H 'Content-Type: application/json' -d'{"type": "fs", "settings": { "location":"/elasticsearch-7.11.1/snapshots" }}'
+{
+  "acknowledged" : true
+}
+```
+- результат: http://localhost:9200/_snapshot/netology_backup?pretty
+```
+root@vagrant:/home/vagrant# curl http://localhost:9200/_snapshot/netology_backup?pretty
+{
+  "netology_backup" : {
+    "type" : "fs",
+    "settings" : {
+      "location" : "/elasticsearch-7.11.1/snapshots"
+    }
+  }
+}
+```
+```
+root@vagrant:/home/vagrant# curl -X PUT localhost:9200/test -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 1,  "number_of_replicas": 0 }}'
+```
+- Результат: http://localhost:9200/test?pretty
+```
+root@vagrant:/home/vagrant# curl http://localhost:9200/test?pretty
+{
+  "test" : {
+    "aliases" : { },
+    "mappings" : { },
+    "settings" : {
+      "index" : {
+        "routing" : {
+          "allocation" : {
+            "include" : {
+              "_tier_preference" : "data_content"
+            }
+          }
+        },
+        "number_of_shards" : "1",
+        "provided_name" : "test",
+        "creation_date" : "1638723608842",
+        "number_of_replicas" : "0",
+        "uuid" : "2MUQqwAJTcayfe3WZsivkA",
+        "version" : {
+          "created" : "7110199"
+        }
+      }
+    }
+  }
+}
+```
+- Результат:
+<p align="center">
+  <img width="1188" height="268" src="./screenshots/backup_elastic.png">
+</p>
 
-### Как cдавать задание
-
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-
----
+- Удаление и создание нового индекса:
+<p align="center">
+  <img width="1430" height="437" src="./screenshots/del_cre_new_index.png">
+</p>
