@@ -65,7 +65,7 @@
 ### Ответ:
 
 <p align="center">
-  <img width="770" height="116" src="./screenshots/terraform.png">
+  <img width="770" height="116" src="./screenshots/terraform.PNG">
 </p>
 
 ## Задача 3. Поддержка легаси кода. 
@@ -80,5 +80,5 @@
 ### Ответ:
 
 <p align="center">
-  <img width="766" height="96" src="./screenshots/terraform_old.png">
+  <img width="766" height="96" src="./screenshots/terraform_old.PNG">
 </p>
