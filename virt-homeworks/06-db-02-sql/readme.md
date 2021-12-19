@@ -15,7 +15,7 @@
 - vol1
 - 13:00:03 alex@upc(0):~$ docker run --rm --name pg-docker -e POSTGRES_PASSWORD=postgres -ti -p 5432:5432 -v vol1:/var/lib/postgresql/data -v vol2:/var/lib/postgresql postgres:12
 - 13:00:35 alex@upc(0):~$ docker run --rm --name pg-docker -e POSTGRES_PASSWORD=postgres -ti -p 5432:5432 -v vol1:/var/lib/postgresql/data -v vol2:/var/lib/postgresql postgres:12
-p align="center">
+<p align="center">
   <img width="863" height="275" src="./screenshots/ss_6_1.png">
 </p>
 
