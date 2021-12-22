@@ -200,10 +200,9 @@ Terraform will perform the following actions:
 
 Plan: 1 to add, 0 to change, 0 to destroy.
 
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if
-you run "terraform apply" now.
-root@vagrant:/home/vagrant/terraform/terraform#
+Changes to Outputs:
+  + account_id  = "525038749290"
+  + caller_arn  = "arn:aws:iam::525038749290:user/Administrator"
+  + caller_user = "AIDAXUPV7QZVGWXTU7LC2"
 ```
 
