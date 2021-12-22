@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "bucket" {
   bucket = "netology-bucket-${terraform.workspace}"
   acl    = "private"
   tags = {
-    Name        = "Bucket 1"
+    Name        = "Bucket1"
     Environment = terraform.workspace
   }
 }
