@@ -61,6 +61,9 @@ AWS предоставляет достаточно много бесплатн�
 2. Ссылку на репозиторий с исходной конфигурацией терраформа.  
 
 ### Ответ:
+
+1. Можно использовать CloudFormation
+2. https://github.com/lozhkinav/devops-netology/tree/main/virt-homeworks/07-terraform-02-syntax
 ```
 root@vagrant:/home/vagrant/terraform/terraform# terraform init
 
