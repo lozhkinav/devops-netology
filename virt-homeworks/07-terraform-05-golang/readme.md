@@ -42,36 +42,44 @@
     ```
 ### Ответ:
 - [Код](./code/conv.go)
+- Результат работы: 
 ```
-package main
-
-import "fmt"
-
-import "math"
-
-func main() {
-    fmt.Print("Enter value in foot: ")
-    var input float64
-    fmt.Scanf("%f", &input)           // округлим до 2х знаков в строке
-    output := input * float64(0.3048) // точное значение 
-    rOutput := math.Round(output)     // округлим до целого
-    sOutput := fmt.Sprintf("( %.2f)", output)
-    fmt.Println("Value in Meters:", rOutput, sOutput )    
-}
-```
--  root@vagrant:/home/vagrant# go run conv.go
+root@vagrant:/home/vagrant# go run conv.go
 Enter value in foot: 34
 Value in Meters: 10 ( 10.36)
- 
+```
+
 2. Напишите программу, которая найдет наименьший элемент в любом заданном списке, например:
     ```
     x := []int{48,96,86,68,57,82,63,70,37,34,83,27,19,97,9,17,}
     ```
 ### Ответ:
-- [Код](./code/conv.go)
+- [Код](./code/find.go)
+- Результат работы: 
+```
+root@vagrant:/home/vagrant# go run find.go
+Список значений :  [48 96 86 68 57 82 63 70 37 34 83 27 19 97 9 17]
+Минимальное число :  9
+```
+
 3. Напишите программу, которая выводит числа от 1 до 100, которые делятся на 3. То есть `(3, 6, 9, …)`.
 
 В виде решения ссылку на код или сам код. 
 
-
+### Ответ:
+- [Код](./code/three.go)
+- Результат работы: 
+```
+root@vagrant:/home/vagrant# root@vagrant:/home/vagrant# go run three.go
+0 -> 3, 6, 9,
+10 -> 12, 15, 18,
+20 -> 21, 24, 27, 30,
+30 -> 33, 36, 39,
+40 -> 42, 45, 48,
+50 -> 51, 54, 57, 60,
+60 -> 63, 66, 69,
+70 -> 72, 75, 78,
+80 -> 81, 84, 87, 90,
+90 -> 93, 96, 99,
+```
 
