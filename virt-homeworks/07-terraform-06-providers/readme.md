@@ -20,7 +20,7 @@
     * Какому регулярному выражению должно подчиняться имя? 
 
 ## Ответы: 
-[resource] (https://github.com/hashicorp/terraform-provider-aws/blob/8e4d8a3f3f781b83f96217c2275f541c893fec5a/aws/provider.go#L411)
+[resource] (https://github.com/hashicorp/terraform-provider-aws/blob/8e4d8a3f3f781b83f96217c2275f541c893fec5a/aws/provider.go#L411).
 [data_source] (https://github.com/hashicorp/terraform-provider-aws/blob/8e4d8a3f3f781b83f96217c2275f541c893fec5a/aws/provider.go#L169)
 ConflictsWith: []string{"name_prefix"}, [Тыц] https://github.com/hashicorp/terraform-provider-aws/blob/8e4d8a3f3f781b83f96217c2275f541c893fec5a/aws/resource_aws_sqs_queue.go#L56
 Длина строки не более 80 символов: errors = append(errors, fmt.Errorf("%q cannot be longer than 80 characters", k)) [Тыц] (https://github.com/hashicorp/terraform-provider-aws/blob/8e4d8a3f3f781b83f96217c2275f541c893fec5a/aws/validators.go#L1038)
