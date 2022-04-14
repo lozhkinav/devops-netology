@@ -1,3 +1,0 @@
----
-  elastic_version: "8.1.2"
-  elastic_home: "/opt/elastic/{{ elastic_version }}"
