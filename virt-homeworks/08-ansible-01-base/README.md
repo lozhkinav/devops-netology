@@ -24,6 +24,31 @@ TASK [Print fact] **************************************************************
 PLAY RECAP *************************************************************************************************************localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
 2. Найдите файл с переменными (group_vars) в котором задаётся найденное в первом пункте значение и поменяйте его на 'all default fact'.
+```
+root@vagrant:/home/vagrant/devops-netology/virt-homeworks/08-ansible-01-base/playbook# cat group_vars/all/examp.yml
+---
+  some_fact: all default fact
+
+root@vagrant:/home/vagrant/devops-netology/virt-homeworks/08-ansible-01-base/playbook# ansible-playbook -i inventory/test.yml site.yml
+
+PLAY [Print os facts] **************************************************************************************************
+
+TASK [Gathering Facts] *************************************************************************************************
+ok: [localhost]
+
+TASK [Print OS] ********************************************************************************************************
+ok: [localhost] => {
+    "msg": "Ubuntu"
+}
+
+TASK [Print fact] ******************************************************************************************************
+ok: [localhost] => {
+    "msg": "all default fact"
+}
+
+PLAY RECAP *************************************************************************************************************
+localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+```
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
 5. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились следующие значения: для `deb` - 'deb default fact', для `el` - 'el default fact'.
