@@ -317,7 +317,10 @@ kibana001                  : ok=9    changed=0    unreachable=0    failed=0    s
 ```
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 ```
-
+https://github.com/lozhkinav/devops-netology/blob/main/virt-homeworks/08-ansible-02-playbook/playbook/README.md
 ```
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
 
+```
+https://github.com/lozhkinav/devops-netology/tree/main/virt-homeworks/08-ansible-02-playbook/playbook
+```
