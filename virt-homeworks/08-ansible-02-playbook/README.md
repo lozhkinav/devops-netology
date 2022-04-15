@@ -257,11 +257,7 @@ TASK [Gathering Facts] *********************************************************
 ok: [elastic001]
 ok: [kibana001]
 
-<<<<<<< HEAD
-TASK [Set facts for Java 18 vars] ***************************************************************************************************************
-=======
 TASK [Set facts for Java 8 vars] ***************************************************************************************************************
->>>>>>> 1aa5bed (+)
 ok: [kibana001]
 ok: [elastic001]
 
@@ -321,25 +317,10 @@ kibana001                  : ok=9    changed=0    unreachable=0    failed=0    s
 ```
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
 https://github.com/lozhkinav/devops-netology/blob/main/virt-homeworks/08-ansible-02-playbook/playbook/README.md
 ```
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
+
 ```
 https://github.com/lozhkinav/devops-netology/tree/main/virt-homeworks/08-ansible-02-playbook/playbook
 ```
-=======
-
-```
-10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
->>>>>>> 1aa5bed (+)
-=======
-https://github.com/lozhkinav/devops-netology/blob/main/virt-homeworks/08-ansible-02-playbook/playbook/README.md
-```
-10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
-```
-https://github.com/lozhkinav/devops-netology/tree/main/virt-homeworks/08-ansible-02-playbook/playbook
-```
->>>>>>> 706f29f (+)
-
