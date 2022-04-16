@@ -54,7 +54,7 @@
 
 В решении задания - приведите листинг этого файла.
 
-Json код Дашборда (в виде файла тут (https://docs.microsoft.com/sql/t-sql/statements/set-transaction-isolation-level-transact-sql))
+Json код Дашборда в виде файла тут (https://github.com/lozhkinav/devops-netology/blob/main/virt-homeworks/10-monitoring-03-grafana/model.json)
 ```
 {
   "annotations": {
