@@ -28,7 +28,6 @@
           extra_opts: [--strip-components=1]
           creates: "{{ java_home }}/bin/java"
         tags:
-          - skip_ansible_lint
           - java
       - name: Export environment variables
         #become: true
@@ -65,7 +64,6 @@
           extra_opts: [--strip-components=1]
           creates: "{{ elastic_home }}/bin/elasticsearch"
         tags:
-          - skip_ansible_lint
           - elastic
       - name: Set environment Elastic
         #become: yes
@@ -101,7 +99,6 @@
           extra_opts: [--strip-components=1]
           creates: "{{ kibana_home }}/bin/kibana"
         tags:
-          - skip_ansible_lint
           - kibana
       - name: Set environment Kibana
         #become: yes
