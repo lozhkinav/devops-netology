@@ -31,6 +31,7 @@
 <p align="center">
   <img width="1218" height="672" src="./screenshots/sonar/2.png">
 </p>
+
 - 2й запуск - Исправлено
 <p align="center">
   <img width="1073" height="605" src="./screenshots/sonar/3.png">
