@@ -16,7 +16,7 @@
 Обоснуйте свой выбор.
 
 ### Ответ:
-Информацию брал от [сюда] (https://www.nginx.com/blog/choosing-the-right-api-gateway-pattern)
+Информацию брал от [сюда](https://www.nginx.com/blog/choosing-the-right-api-gateway-pattern)
 Критерий                    | Центральный шлюз | Two-tier gateway | Микрошлюз | Шлюзы per-pod | Sidecar, Service Mash
 --------------------------- | ---------------- | ---------------- | --------- | ------------- | --------------------- 
 SSL/TLS	                    |         +	       |         +	      |     +	  |       +	      |            +
