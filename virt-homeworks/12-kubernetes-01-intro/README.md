@@ -32,7 +32,7 @@
 
 ### Ответ:
 
-- Установлено: статус ниже
+Установлено: статус ниже
 root@vagrant:/home/vagrant# minikube status
 minikube
 type: Control Plane
