@@ -123,12 +123,12 @@ root@vagrant:/home/vagrant# minikube service hello-node
 
 - Скрин дашборда
 <p align="center">
-  <img width="1280" height="569" src="./screenshots/1.png">
+  <img width="1280" height="569" src="./Screenshots/1.png">
 </p>
 
 - Скрин страницы
 <p align="center">
-  <img width="1236" height="376" src="./screenshots/2.png">
+  <img width="1236" height="376" src="./Screenshots/2.png">
 </p>
 
 ## Задача 3: Установить kubectl
