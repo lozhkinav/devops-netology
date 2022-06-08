@@ -33,7 +33,7 @@
 ### Ответ:
 
 Установлено: статус ниже
-root@vagrant:/home/vagrant# minikube status
+- root@vagrant:/home/vagrant# minikube status
 minikube
 type: Control Plane
 host: Running
@@ -41,7 +41,7 @@ kubelet: Running
 apiserver: Running
 kubeconfig: Configured
 
-root@vagrant:/home/vagrant# kubectl get pods --namespace=kube-system
+- root@vagrant:/home/vagrant# kubectl get pods --namespace=kube-system
 NAME                              READY   STATUS    RESTARTS   AGE
 coredns-64897985d-89ljv           1/1     Running   0          20s
 etcd-vagrant                      1/1     Running   0          32s
