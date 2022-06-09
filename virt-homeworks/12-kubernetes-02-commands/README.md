@@ -17,7 +17,7 @@
 запустил Deployments
 
 <p align="center">
-  <img width="1042" height="347" src="./screenshots/1.jpg">
+  <img width="1042" height="347" src="./screenshots/1.JPG">
 </p>
 
 Сначала сделал по инструкции [ТУТ](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
