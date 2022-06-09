@@ -44,7 +44,7 @@
 Конфиг пользователя:
 
 <p align="center">
-  <img width="1183" height="601" src="./screenshots/3.png">
+  <img width="1183" height="601" src="./screenshots/3.PNG">
 </p>
 
 - Скрин работы команды
@@ -56,7 +56,7 @@
 Просмотр логов (работоспособность команд):
 
 <p align="center">
-  <img width="1628" height="902" src="./screenshots/5.png">
+  <img width="1628" height="902" src="./screenshots/5.PNG">
 </p>
 
 - Скрин работы команды
@@ -77,7 +77,7 @@
 Реплики изменены, результаты в процессе применения
 
 <p align="center">
-  <img width="1043" height="999" src="./screenshots/7.png">
+  <img width="1043" height="999" src="./screenshots/7.PNG">
 </p>
 
 - Скрин работы команды
