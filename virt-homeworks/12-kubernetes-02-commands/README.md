@@ -44,7 +44,7 @@
 Конфиг пользователя:
 
 <p align="center">
-  <img width="1183" height="601" src="./screenshots/3.PNG">
+  <img width="1183" height="601" src="./screenshots/31.PNG">
 </p>
 
 - Скрин работы команды
