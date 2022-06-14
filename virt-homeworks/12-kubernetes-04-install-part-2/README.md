@@ -40,6 +40,7 @@
 6. В итоге скрипт отработал частично, не хватает памти на моей машине :( для обработки всех нод, так как нехватает памяти под весь кластер.
    
    ```
+
    ASK [kubernetes/preinstall : Stop if memory is too small for nodes] ***************************************************************************
 fatal: [node1]: FAILED! => {
     "assertion": "ansible_memtotal_mb >= minimal_node_memory_mb",
@@ -100,4 +101,5 @@ kubernetes/preinstall : Stop if unsupported version of Kubernetes --------------
 kubernetes/preinstall : Stop if supported Calico versions ------------------------------------------------------------------------------- 0.11s
 
 alex@upc:~/devops-projects/kuber/kubespray $ 
-   ```
+  
+```
