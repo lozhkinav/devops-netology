@@ -38,6 +38,7 @@
     alex@upc:~/devops-projects/kuber/kubespray $ ansible-playbook -i inventory/cluster/hosts.ini --become --become-user=root cluster.yml
     ```
 6. В итоге скрипт отработал частично, не хватает памти на моей машине :( для обработки всех нод, так как нехватает памяти под весь кластер.
+   
    ```
    ASK [kubernetes/preinstall : Stop if memory is too small for nodes] ***************************************************************************
 fatal: [node1]: FAILED! => {
@@ -76,7 +77,7 @@ node3                      : ok=28   changed=0    unreachable=0    failed=1    s
 node4                      : ok=28   changed=0    unreachable=0    failed=1    skipped=50   rescued=0    ignored=0   
 
 Tuesday 14 june 2022  10:32:10 +0700 (0:00:00.096)       0:00:42.464 ******* 
-=============================================================================== 
+ =============================================================================== 
 bootstrap-os : Install dbus for the hostname module ------------------------------------------------------------------------------------ 11.44s
 bootstrap-os : Fetch /etc/os-release ---------------------------------------------------------------------------------------------------- 4.26s
 bootstrap-os : Check http::proxy in apt configuration files ----------------------------------------------------------------------------- 2.82s
