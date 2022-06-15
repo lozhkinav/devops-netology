@@ -149,5 +149,5 @@ ksa.policy-my.default
 alex@node1:~/devops-projects/kuber $
 ```
 <p align="center">
-  <img width="981" height="637" src="./screenshots/3.PNG">
+  <img width="981" height="637" src="./screenshots/3.png">
 </p>
