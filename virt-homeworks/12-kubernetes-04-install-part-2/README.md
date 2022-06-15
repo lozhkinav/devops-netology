@@ -39,7 +39,7 @@
     ```
 6. В итоге скрипт отработал частично, не хватает памти на моей машине :( для обработки всех нод, так как нехватает памяти под весь кластер.
    
-   ```
+<
 
    ASK [kubernetes/preinstall : Stop if memory is too small for nodes] ***************************************************************************
 fatal: [node1]: FAILED! => {
@@ -102,4 +102,4 @@ kubernetes/preinstall : Stop if supported Calico versions ----------------------
 
 alex@upc:~/devops-projects/kuber/kubespray $ 
   
-```
+>
