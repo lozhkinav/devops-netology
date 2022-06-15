@@ -21,7 +21,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 node1                      : ok=582  changed=107  unreachable=0    failed=0    skipped=1151 rescued=0    ignored=2   
 
-Wednesday 15 June 2021  10:43:09 +0700 (0:00:00.060)       0:10:08.743 ********* 
+Wednesday 15 June 2022  10:43:09 +0700 (0:00:00.060)       0:10:08.743 ********* 
 ```
 [Настраиваем политику](https://docs.projectcalico.org/security/tutorials/kubernetes-policy-basic):
 ```
