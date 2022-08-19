@@ -12,7 +12,7 @@
 * получить 3 вышеописанных типа в консоли.
 
 ### Ответ:
-Устанавливаем Кубер
+* Устанавливаем Кубер
 ```
 alex@upc:~/devops-projects/kuber $ sudo ansible-playbook -vvv -i inventory/local/hosts.ini cluster.yml
 
@@ -29,7 +29,7 @@ alex@upc:~/devops-projects/kuber $ sudo kubectl create ns policy-my
 namespace/policy-my created
 ```
 
-деплоим приложение в нашу политику
+* деплоим приложение в нашу политику
 ```
 lex@node1:~/devops-projects/kuber $ sudo kubectl apply --namespace=policy-my -f ./ctrl/nginx_hello.yaml 
 deployment.apps/hello-node-srv configured
@@ -48,7 +48,7 @@ kube-system   kube-scheduler-node1                       1/1     Running   2    
 kube-system   nodelocaldns-hpctv                         1/1     Running   1          100m
 policy-my     hello-node-srv-75cbdb4d6-52spr             1/1     Running   0          11m
 ```
-Проверяем доступ:
+* Проверяем доступ:
 ```
 alex@node1:~/devops-projects/kuber $ sudo kubectl run --namespace=policy-my access --rm -ti --image busybox /bin/sh
 If you don't see a command prompt, try pressing enter.
