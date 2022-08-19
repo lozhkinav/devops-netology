@@ -45,7 +45,7 @@ error: the server doesn't have a resource type "fb-pod"
 alex@pclocal:~/devops-projects/myrepo/13_kuberconfig $ sudo kubectl describe deploy fb-pod
 Name:                   fb-pod
 Namespace:              policy-my
-CreationTimestamp:      Mon, 08 Jul 2022 08:56:08 +0700
+CreationTimestamp:      Mon, 08 Jul 2022 08:56:25 +0700
 Labels:                 app=fb-app
 Annotations:            deployment.kubernetes.io/revision: 1
 Selector:               app=fb-app
